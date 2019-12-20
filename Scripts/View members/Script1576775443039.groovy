@@ -20,19 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 
-WebUI.setText(findTestObject('ViewMembers/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-    'dhgbao@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'dhgbao@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('ViewMembers/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'M/uRr0K2+VEvVRwx2nTt7w==')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'RigbBhfdqODKcAsiUrg+1Q==')
 
-WebUI.click(findTestObject('ViewMembers/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('ViewMembers/Page_ Town Square - asdasdas Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('ViewMembers/Page_ Town Square - asdasdas Mattermost/button_View Members'))
-
-WebUI.click(findTestObject('ViewMembers/Page_ Town Square - asdasdas Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members'))
 
 WebUI.closeBrowser()
 

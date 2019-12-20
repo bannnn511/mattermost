@@ -131,6 +131,7 @@
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.windows/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/configuration/plugin/install/36225/1.0.7/katalon-studio-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

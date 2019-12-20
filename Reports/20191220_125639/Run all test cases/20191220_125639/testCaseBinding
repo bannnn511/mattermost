@@ -1,0 +1,24 @@
+{"testCaseName":"Test Cases/Login with wrong password","testCaseId":"Test Cases/Login with wrong password"}
+{"testCaseName":"Test Cases/Login with correct password","testCaseId":"Test Cases/Login with correct password"}
+{"testCaseName":"Test Cases/Forgot passwords","testCaseId":"Test Cases/Forgot passwords"}
+{"testCaseName":"Test Cases/Create Private channel","testCaseId":"Test Cases/Create Private channel"}
+{"testCaseName":"Test Cases/Create new public channel - Iteration 1","testCaseId":"Test Cases/Create new public channel","bindedValues":{"Email":"\u0027dhgbao@apcs.vn\u0027","ChannelName":"\u0027123456789\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Create new public channel - Iteration 2","testCaseId":"Test Cases/Create new public channel","bindedValues":{"Email":"\u0027dhgbao@apcs.vn\u0027","ChannelName":"\u0027123456789\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Create new public channel - Iteration 3","testCaseId":"Test Cases/Create new public channel","bindedValues":{"Email":"\u0027dhgbao@apcs.vn\u0027","ChannelName":"\u0027123456789\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Create new public channel - Iteration 4","testCaseId":"Test Cases/Create new public channel","bindedValues":{"Email":"\u0027dhgbao@apcs.vn\u0027","ChannelName":"\u0027123456789\u0027","Password":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Create new public channel - Iteration 5","testCaseId":"Test Cases/Create new public channel","bindedValues":{"Email":"\u0027habinhan99@gmail.com\u0027","ChannelName":"\u0027BInhan01\u0027","Password":"\u0027BInhan01\u0027"}}
+{"testCaseName":"Test Cases/Edit Account Full Name With All Fields not Filled","testCaseId":"Test Cases/Edit Account Full Name With All Fields not Filled"}
+{"testCaseName":"Test Cases/Edit Team Name With Valid Fom","testCaseId":"Test Cases/Edit Team Name With Valid Fom"}
+{"testCaseName":"Test Cases/Edit Team Name With Invalid Form","testCaseId":"Test Cases/Edit Team Name With Invalid Form"}
+{"testCaseName":"Test Cases/Edit public channel purpose","testCaseId":"Test Cases/Edit public channel purpose"}
+{"testCaseName":"Test Cases/Edit Account Full Name With All Fields Filled","testCaseId":"Test Cases/Edit Account Full Name With All Fields Filled"}
+{"testCaseName":"Test Cases/Edit public channel headers","testCaseId":"Test Cases/Edit public channel headers"}
+{"testCaseName":"Test Cases/Change Team Description","testCaseId":"Test Cases/Change Team Description"}
+{"testCaseName":"Test Cases/Create message on private channel","testCaseId":"Test Cases/Create message on private channel"}
+{"testCaseName":"Test Cases/Tag public member in private channel","testCaseId":"Test Cases/Tag public member in private channel"}
+{"testCaseName":"Test Cases/Tag private member in private channel","testCaseId":"Test Cases/Tag private member in private channel"}
+{"testCaseName":"Test Cases/Get team invite link","testCaseId":"Test Cases/Get team invite link"}
+{"testCaseName":"Test Cases/Rename private channel","testCaseId":"Test Cases/Rename private channel"}
+{"testCaseName":"Test Cases/View members","testCaseId":"Test Cases/View members"}
+{"testCaseName":"Test Cases/View Private channel info","testCaseId":"Test Cases/View Private channel info"}
+{"testCaseName":"Test Cases/View info public channel","testCaseId":"Test Cases/View info public channel"}

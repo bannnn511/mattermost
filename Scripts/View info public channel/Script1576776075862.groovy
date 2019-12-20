@@ -20,34 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 
-WebUI.setText(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-    'dhgbao@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'dhgbao@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'M/uRr0K2+VEvVRwx2nTt7w==')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'RigbBhfdqODKcAsiUrg+1Q==')
 
-WebUI.sendKeys(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/span_Mattermost_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/button_View Info'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/div_Test'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/div_PurposeTestHeaderProjectURLhttpsmatterm_644ea1'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/p_Project'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/div_httpsmattermost-usecaseherokuappcomasda_aa36eb'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/p_ID ujziweawtbf65fe4x1gxx83i1a'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/span_About'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/strong_Mattermost'))
-
-WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_ Mattermost - asdasdas Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info'))
 
 WebUI.closeBrowser()
 

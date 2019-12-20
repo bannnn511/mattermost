@@ -6,6 +6,7 @@
    <UUID>b9d2122b-9f0a-4d26-89d9-b2972c470304</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/dsds.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

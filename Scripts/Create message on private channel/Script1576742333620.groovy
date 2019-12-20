@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
+
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'bannnnn')
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), '6M8jdlTs8n6rOnocPaG5Cw==')

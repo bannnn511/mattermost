@@ -18,10 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com')
+WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password'))
 
 WebUI.setText(findTestObject('Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79'), 
     'habinhan1999@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password'))
+
+WebUI.closeBrowser()
 

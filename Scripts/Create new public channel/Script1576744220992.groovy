@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 WebUI.setText(findTestObject('Object Repository/CreateNewPublicChannel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     Email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CreateNewPublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setText(findTestObject('Object Repository/CreateNewPublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     Password)
 
 WebUI.click(findTestObject('Object Repository/CreateNewPublicChannel/Page_Mattermost/span_Sign in'))
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/CreateNewPublicChannel/Page_Matter
 WebUI.click(findTestObject('Object Repository/CreateNewPublicChannel/Page_Town Square - Rednit Mattermost/span_'))
 
 WebUI.setText(findTestObject('Object Repository/CreateNewPublicChannel/Page_Town Square - Rednit Mattermost/input_Name_newChannelName'), 
-    'Code')
+    ChannelName)
 
 WebUI.setText(findTestObject('Object Repository/CreateNewPublicChannel/Page_Town Square - Rednit Mattermost/textarea_(optional)_newChannelPurpose'), 
     's')

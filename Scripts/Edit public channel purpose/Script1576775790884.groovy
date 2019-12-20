@@ -20,32 +20,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 
-WebUI.setText(findTestObject('EditPublicChannelPurpose/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-    'dhgbao@apcs.vn')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'dhgbao@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('EditPublicChannelPurpose/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'M/uRr0K2+VEvVRwx2nTt7w==')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'RigbBhfdqODKcAsiUrg+1Q==')
 
-WebUI.sendKeys(findTestObject('EditPublicChannelPurpose/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Purpose'))
+WebUI.click(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose'))
 
-WebUI.setText(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/textarea_Town Square_form-control no-resize_cfa613'), 
-    'T')
+WebUI.setText(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab'), 
+    't')
 
-WebUI.setText(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/textarea_T'), 
-    'Te')
+WebUI.setText(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t'), 
+    'te')
 
-WebUI.setText(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/textarea_Te'), 
-    'Tes')
+WebUI.setText(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te'), 
+    'tes')
 
-WebUI.setText(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/textarea_Tes'), 
-    'Test')
+WebUI.setText(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes'), 
+    'test')
 
-WebUI.click(findTestObject('EditPublicChannelPurpose/Page_ Town Square - asdasdas Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save'))
 
 WebUI.closeBrowser()
 

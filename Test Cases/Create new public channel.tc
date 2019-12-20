@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49cda08e-b67f-4955-80e2-2961b945993d</id>
+      <masked>false</masked>
+      <name>ChannelName</name>
+   </variable>
 </TestCaseEntity>

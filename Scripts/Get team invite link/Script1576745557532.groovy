@@ -23,8 +23,8 @@ WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 WebUI.setText(findTestObject('Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'dhgbao@apcs.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'M/uRr0K2+VEvVRwx2nTt7w==')
+WebUI.setText(findTestObject('Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+    '123456789')
 
 WebUI.sendKeys(findTestObject('Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     Keys.chord(Keys.ENTER))

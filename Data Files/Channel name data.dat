@@ -8,6 +8,26 @@
    <dataFileGUID>b36190bc-1ac1-427b-9cbb-37762a42fef4</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>CS300 dhgbao%40apcs.vn 123456789</data>
+   <data>CS419 dhgbao%40apcs.vn 123456789</data>
+   <data>CS201 dhgbao%40apcs.vn 123456789</data>
+   <data>STAT dhgbao%40apcs.vn 123456789</data>
+   <data>CS320 habinhan99%40gmail.com BInhan01</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ChannelName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Email</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Password</name>
+      <size>5</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
