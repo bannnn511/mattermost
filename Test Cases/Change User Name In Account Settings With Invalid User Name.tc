@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change User Name In Account Settings With Invalid User Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edc958a1-4472-44f3-a332-43b23d7b122e</testCaseGuid>
+</TestCaseEntity>

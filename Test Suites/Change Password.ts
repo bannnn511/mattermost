@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Change Password</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ca03ead7-f9d6-493c-a3f4-431ebbe45316</testSuiteGuid>
+   <testCaseLink>
+      <guid>8d390cf6-45f2-4d98-b109-e7f883400e73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change Password With Invalid Cases</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a472ab07-f89e-478b-b294-a5074f1ac028</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Password With Invalid Cases</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a472ab07-f89e-478b-b294-a5074f1ac028</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CurrentPW</value>
+         <variableId>e8941508-d13a-43f0-bf36-ad2d3316d0f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a472ab07-f89e-478b-b294-a5074f1ac028</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NewPW</value>
+         <variableId>6c77867b-f63f-40cd-8c91-ce35e4957607</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a472ab07-f89e-478b-b294-a5074f1ac028</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RePW</value>
+         <variableId>9f9997e5-3e08-4577-83fa-6c2c5cb22f4b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e386d27-fd66-41bb-8ae9-9f56cab95043</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change Password With Correct Procedure</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1d43123b-3bb4-4e90-b222-0940a90b856b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Password With Correct Procedure</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1d43123b-3bb4-4e90-b222-0940a90b856b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CurrentPW</value>
+         <variableId>04517c95-c1cc-4914-b801-802d64ae6492</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1d43123b-3bb4-4e90-b222-0940a90b856b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NewPW</value>
+         <variableId>5dfd5d0a-685b-4bc3-82d3-30c902a9b412</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1d43123b-3bb4-4e90-b222-0940a90b856b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RePW</value>
+         <variableId>c05be2fe-cc37-4b80-8eaf-b39104eb2931</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
