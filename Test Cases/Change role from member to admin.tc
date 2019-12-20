@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change role from member to admin</name>
+   <tag>mange members</tag>
+   <comment></comment>
+   <testCaseGuid>66e1b1d6-e258-4631-b223-8859893a13e1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67d3da20-9e94-49e6-90d9-582cabd66ddd</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5e7ee9b-7bfb-4e1c-adc1-4912eb5361ae</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

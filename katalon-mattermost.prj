@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>katalon-mattermost</name>
+   <tag></tag>
+<<<<<<< HEAD
+<<<<<<< HEAD
+   <UUID>7461267b-24ce-4944-b876-bb8daed5ddb3</UUID>
+=======
+   <UUID>a90d236d-da30-4d5b-9796-034b0a325fd9</UUID>
+>>>>>>> develop
+=======
+   <UUID>fdfdc460-22c7-4776-87ed-f590be646453</UUID>
+>>>>>>> Hieu
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>GENERIC</type>
+</Project>
