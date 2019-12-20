@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="846.415" tests="20" failures="3" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="3" errors="0" time="846.415" timestamp="2019-12-20 20:28:21" hostname="apple - localhost" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817"/>
+         <property name="logFiles" value="/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/execution0.log"/>
+         <property name="attachments" value="/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576848716470.png, /Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576848858882.png, /Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576849345416.png"/>
+         <property name="hostName" value="apple - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="319c9093-14db-bf40-95f5-86a61511fa12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login with wrong password" time="28.805" classname="Test Cases/Login with wrong password" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:28:21 - [TEST_CASE][PASSED] - Test Cases/Login with wrong password: Test Cases/Login with wrong password
+
+2019-12-20 20:28:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:28:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:28:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-20 20:28:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:28:28 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:28:37 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login succed/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:28:42 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:28:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Login succed/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:28:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login succed/span_Sign in")): Object: 'Object Repository/Login/Login succed/span_Sign in' is clicked on
+
+2019-12-20 20:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login succed/span_Sign in' is clicked on
+
+2019-12-20 20:28:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:28:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with correct password" time="25.729" classname="Test Cases/Login with correct password" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:28:50 - [TEST_CASE][PASSED] - Test Cases/Login with correct password: Test Cases/Login with correct password
+
+2019-12-20 20:28:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:28:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:28:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:28:55 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:29:02 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:29:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login failed/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:29:07 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:29:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Login failed/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:29:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login failed/span_Sign in")): Object: 'Object Repository/Login/Login failed/span_Sign in' is clicked on
+
+2019-12-20 20:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login failed/span_Sign in' is clicked on
+
+2019-12-20 20:29:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:29:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot passwords" time="25.949" classname="Test Cases/Forgot passwords" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:29:16 - [TEST_CASE][PASSED] - Test Cases/Forgot passwords: Test Cases/Forgot passwords
+
+2019-12-20 20:29:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:29:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:29:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:29:21 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:29:28 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password")): Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password' is clicked on
+
+2019-12-20 20:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password' is clicked on
+
+2019-12-20 20:29:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79"), "habinhan1999@gmail.com"): Text 'habinhan1999@gmail.com' is set on object 'Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79'
+
+2019-12-20 20:29:37 - [MESSAGE][PASSED] - Text 'habinhan1999@gmail.com' is set on object 'Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79'
+
+2019-12-20 20:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password")): Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password' is clicked on
+
+2019-12-20 20:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password' is clicked on
+
+2019-12-20 20:29:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:29:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Private channel" time="36.737" classname="Test Cases/Create Private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:29:42 - [TEST_CASE][PASSED] - Test Cases/Create Private channel: Test Cases/Create Private channel
+
+2019-12-20 20:29:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:29:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:29:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:29:47 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:29:51 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:29:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:29:56 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:29:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:29:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Private channel/span_")): Object: 'Object Repository/Private channel/span_' is clicked on
+
+2019-12-20 20:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/span_' is clicked on
+
+2019-12-20 20:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Private channel/input_Name_newChannelName"), "Test create private channel"): Text 'Test create private channel' is set on object 'Object Repository/Private channel/input_Name_newChannelName'
+
+2019-12-20 20:30:10 - [MESSAGE][PASSED] - Text 'Test create private channel' is set on object 'Object Repository/Private channel/input_Name_newChannelName'
+
+2019-12-20 20:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Private channel/span_Create New Channel")): Object: 'Object Repository/Private channel/span_Create New Channel' is clicked on
+
+2019-12-20 20:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/span_Create New Channel' is clicked on
+
+2019-12-20 20:30:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:30:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Account Full Name With All Fields not Filled" time="97.83" classname="Test Cases/Edit Account Full Name With All Fields not Filled" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit Account Full Name With All Fields not Filled FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-20 20:30:18 - [TEST_CASE][FAILED] - Test Cases/Edit Account Full Name With All Fields not Filled: Test Cases/Edit Account Full Name With All Fields not Filled FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-20 20:30:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:30:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:30:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:30:23 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:30:30 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:30:36 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:30:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:30:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 20:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 20:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 20:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 20:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:31:23 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName"), ""): Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1576741727372.run(Script1576741727372.groovy:37)
+	... 13 more
+)
+
+2019-12-20 20:31:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='firstName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-20 20:31:56 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1576741727372.run(Script1576741727372.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576848716470.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-20 20:30:18 - [TEST_CASE][FAILED] - Test Cases/Edit Account Full Name With All Fields not Filled: Test Cases/Edit Account Full Name With All Fields not Filled FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Team Name With Valid Fom" time="47.126" classname="Test Cases/Edit Team Name With Valid Fom" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:31:56 - [TEST_CASE][PASSED] - Test Cases/Edit Team Name With Valid Fom: Test Cases/Edit Team Name With Valid Fom
+
+2019-12-20 20:31:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:31:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-20 20:31:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:32:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:32:02 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:32:08 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:32:14 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:32:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:32:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 20:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 20:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 20:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 20:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName"), "Squad"): Text 'Squad' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+
+2019-12-20 20:32:39 - [MESSAGE][PASSED] - Text 'Squad' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+
+2019-12-20 20:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save' is clicked on
+
+2019-12-20 20:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save' is clicked on
+
+2019-12-20 20:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:32:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:32:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Team Name With Invalid Form" time="95.249" classname="Test Cases/Edit Team Name With Invalid Form" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit Team Name With Invalid Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Team Name With Invalid Form.run(Edit Team Name With Invalid Form:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' located by 'By.xpath: //input[@id='teamName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-20 20:32:43 - [TEST_CASE][FAILED] - Test Cases/Edit Team Name With Invalid Form: Test Cases/Edit Team Name With Invalid Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Team Name With Invalid Form.run(Edit Team Name With Invalid Form:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' located by 'By.xpath: //input[@id='teamName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-20 20:32:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:32:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:32:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:32:48 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:32:53 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:32:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:32:58 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:32:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:33:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/svg")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 20:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 20:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Team Settings")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Edit")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 20:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 20:33:44 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName"), ""): Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Team Name With Invalid Form.run(Edit Team Name With Invalid Form:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' located by 'By.xpath: //input[@id='teamName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1576762727212.run(Script1576762727212.groovy:37)
+	... 13 more
+)
+
+2019-12-20 20:34:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='teamName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-20 20:34:19 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Team Name With Invalid Form.run(Edit Team Name With Invalid Form:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' located by 'By.xpath: //input[@id='teamName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1576762727212.run(Script1576762727212.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576848858882.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-20 20:32:43 - [TEST_CASE][FAILED] - Test Cases/Edit Team Name With Invalid Form: Test Cases/Edit Team Name With Invalid Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Team Name With Invalid Form.run(Edit Team Name With Invalid Form:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName' located by 'By.xpath: //input[@id='teamName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit public channel purpose" time="32.556" classname="Test Cases/Edit public channel purpose" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:34:19 - [TEST_CASE][PASSED] - Test Cases/Edit public channel purpose: Test Cases/Edit public channel purpose
+
+2019-12-20 20:34:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:34:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-20 20:34:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:34:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:34:25 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:34:33 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:34:38 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:34:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:34:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:34:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:34:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 20:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 20:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab"), "t"): Text 't' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab'
+
+2019-12-20 20:34:44 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab'
+
+2019-12-20 20:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t"), "te"): Text 'te' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t'
+
+2019-12-20 20:34:44 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t'
+
+2019-12-20 20:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te"), "tes"): Text 'tes' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te'
+
+2019-12-20 20:34:45 - [MESSAGE][PASSED] - Text 'tes' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te'
+
+2019-12-20 20:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes"), "test"): Text 'test' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes'
+
+2019-12-20 20:34:46 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes'
+
+2019-12-20 20:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save' is clicked on
+
+2019-12-20 20:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save' is clicked on
+
+2019-12-20 20:34:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:34:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Account Full Name With All Fields Filled" time="31.945" classname="Test Cases/Edit Account Full Name With All Fields Filled" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:34:51 - [TEST_CASE][PASSED] - Test Cases/Edit Account Full Name With All Fields Filled: Test Cases/Edit Account Full Name With All Fields Filled
+
+2019-12-20 20:34:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:34:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:34:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:34:57 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:35:04 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:35:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:35:09 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:35:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 20:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 20:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 20:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 20:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName"), FirstName): Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+
+2019-12-20 20:35:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+
+2019-12-20 20:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName"), LastName): Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName'
+
+2019-12-20 20:35:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName'
+
+2019-12-20 20:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save' is clicked on
+
+2019-12-20 20:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save' is clicked on
+
+2019-12-20 20:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:35:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:35:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit public channel headers" time="58.102" classname="Test Cases/Edit public channel headers" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:35:23 - [TEST_CASE][PASSED] - Test Cases/Edit public channel headers: Test Cases/Edit public channel headers
+
+2019-12-20 20:35:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:35:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:35:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:35:28 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:35:36 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:35:41 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733"), "123456789"): Text '123456789' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:44 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header' is clicked on
+
+2019-12-20 20:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header' is clicked on
+
+2019-12-20 20:35:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox"), "P"): Text 'P' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox'
+
+2019-12-20 20:36:00 - [MESSAGE][PASSED] - Text 'P' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox'
+
+2019-12-20 20:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P"), "Pr"): Text 'Pr' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P'
+
+2019-12-20 20:36:03 - [MESSAGE][PASSED] - Text 'Pr' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P'
+
+2019-12-20 20:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr"), "Pro"): Text 'Pro' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr'
+
+2019-12-20 20:36:05 - [MESSAGE][PASSED] - Text 'Pro' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr'
+
+2019-12-20 20:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro"), "Proj"): Text 'Proj' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro'
+
+2019-12-20 20:36:07 - [MESSAGE][PASSED] - Text 'Proj' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro'
+
+2019-12-20 20:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj"), "Proje"): Text 'Proje' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj'
+
+2019-12-20 20:36:09 - [MESSAGE][PASSED] - Text 'Proje' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj'
+
+2019-12-20 20:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje"), "Projec"): Text 'Projec' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje'
+
+2019-12-20 20:36:12 - [MESSAGE][PASSED] - Text 'Projec' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje'
+
+2019-12-20 20:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec"), "Project"): Text 'Project' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec'
+
+2019-12-20 20:36:16 - [MESSAGE][PASSED] - Text 'Project' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec'
+
+2019-12-20 20:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save' is clicked on
+
+2019-12-20 20:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save' is clicked on
+
+2019-12-20 20:36:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:36:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Team Description" time="81.994" classname="Test Cases/Change Team Description" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:36:21 - [TEST_CASE][PASSED] - Test Cases/Change Team Description: Test Cases/Change Team Description
+
+2019-12-20 20:36:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:36:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:36:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:36:32 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:36:43 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:36:51 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:36:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Change Team Description/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span' is clicked on
+
+2019-12-20 20:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span' is clicked on
+
+2019-12-20 20:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 20:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 20:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription"), "description"): Text 'description' is set on object 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 20:37:08 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 20:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save' is clicked on
+
+2019-12-20 20:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save' is clicked on
+
+2019-12-20 20:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:37:12 - [MESSAGE][ERROR] - (1013, -39) is out of bounds of viewport width (1280) and height (695)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Apples-MacBook-Pro-2.local', ip: 'fe80:0:0:0:102d:72:9563:eb23%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6265, moz:profile: /var/folders/69/r_nh2ysj7sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.0.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c512756-42f5-534d-8e9e-52d74b4825e8
+
+2019-12-20 20:37:42 - [MESSAGE][ERROR] - (1013, -39) is out of bounds of viewport width (1280) and height (695)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Apples-MacBook-Pro-2.local', ip: 'fe80:0:0:0:102d:72:9563:eb23%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6265, moz:profile: /var/folders/69/r_nh2ysj7sj..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.0.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c512756-42f5-534d-8e9e-52d74b4825e8
+
+2019-12-20 20:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 20:37:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:37:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create message on private channel" time="34.063" classname="Test Cases/Create message on private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:37:43 - [TEST_CASE][PASSED] - Test Cases/Create message on private channel: Test Cases/Create message on private channel
+
+2019-12-20 20:37:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:37:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:37:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:37:47 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:37:57 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:38:04 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:38:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:38:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f"), "h"): Text 'h' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 20:38:11 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 20:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h"), "he"): Text 'he' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h'
+
+2019-12-20 20:38:12 - [MESSAGE][PASSED] - Text 'he' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h'
+
+2019-12-20 20:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he"), "hel"): Text 'hel' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he'
+
+2019-12-20 20:38:12 - [MESSAGE][PASSED] - Text 'hel' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he'
+
+2019-12-20 20:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel"), "hell"): Text 'hell' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel'
+
+2019-12-20 20:38:13 - [MESSAGE][PASSED] - Text 'hell' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel'
+
+2019-12-20 20:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell"), "hello"): Text 'hello' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell'
+
+2019-12-20 20:38:14 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell'
+
+2019-12-20 20:38:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:38:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tag public member in private channel" time="31.693" classname="Test Cases/Tag public member in private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:38:17 - [TEST_CASE][PASSED] - Test Cases/Tag public member in private channel: Test Cases/Tag public member in private channel
+
+2019-12-20 20:38:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:38:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:38:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:38:21 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:38:28 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:38:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:38:34 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:38:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:38:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f"), "@"): Text '@' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 20:38:44 - [MESSAGE][PASSED] - Text '@' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 20:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct' is clicked on
+
+2019-12-20 20:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct' is clicked on
+
+2019-12-20 20:38:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:38:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get team invite link" time="47.614" classname="Test Cases/Get team invite link" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:38:49 - [TEST_CASE][PASSED] - Test Cases/Get team invite link: Test Cases/Get team invite link
+
+2019-12-20 20:38:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:38:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:38:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:38:53 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:39:05 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:39:11 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733"), "123456789"): Text '123456789' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:14 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg' is clicked on
+
+2019-12-20 20:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg' is clicked on
+
+2019-12-20 20:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link' is clicked on
+
+2019-12-20 20:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link' is clicked on
+
+2019-12-20 20:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link' is clicked on
+
+2019-12-20 20:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link' is clicked on
+
+2019-12-20 20:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close' is clicked on
+
+2019-12-20 20:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close' is clicked on
+
+2019-12-20 20:39:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:39:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rename private channel" time="26.87" classname="Test Cases/Rename private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:39:37 - [TEST_CASE][PASSED] - Test Cases/Rename private channel: Test Cases/Rename private channel
+
+2019-12-20 20:39:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:39:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:39:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:39:40 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:39:47 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 20:39:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:39:52 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:39:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 20:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 20:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 20:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 20:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name"), "Test private channel"): Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 20:40:00 - [MESSAGE][PASSED] - Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 20:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 20:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 20:40:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:40:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View members" time="24.871" classname="Test Cases/View members" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:40:04 - [TEST_CASE][PASSED] - Test Cases/View members: Test Cases/View members
+
+2019-12-20 20:40:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:40:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:40:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:40:07 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:40:14 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:40:20 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:40:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members")): Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members' is clicked on
+
+2019-12-20 20:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members' is clicked on
+
+2019-12-20 20:40:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:40:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Private channel info" time="31.253" classname="Test Cases/View Private channel info" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:40:28 - [TEST_CASE][PASSED] - Test Cases/View Private channel info: Test Cases/View Private channel info
+
+2019-12-20 20:40:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:40:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:40:33 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:40:41 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:40:46 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:40:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:40:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in")): Object: 'Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in' is clicked on
+
+2019-12-20 20:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in' is clicked on
+
+2019-12-20 20:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 20:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 20:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 20:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info' is clicked on
+
+2019-12-20 20:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info' is clicked on
+
+2019-12-20 20:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_' is clicked on
+
+2019-12-20 20:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_' is clicked on
+
+2019-12-20 20:40:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:41:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View info public channel" time="27.563" classname="Test Cases/View info public channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:41:00 - [TEST_CASE][PASSED] - Test Cases/View info public channel: Test Cases/View info public channel
+
+2019-12-20 20:41:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:41:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:41:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:41:04 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:41:11 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:41:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:41:20 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:41:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:41:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 20:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info' is clicked on
+
+2019-12-20 20:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info' is clicked on
+
+2019-12-20 20:41:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 20:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Changing Language" time="0.134" classname="Test Cases/Changing Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 20:41:27 - [TEST_CASE][PASSED] - Test Cases/Changing Language: Test Cases/Changing Language
+
+2019-12-20 20:41:27 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Changing Message Display" time="57.793" classname="Test Cases/Changing Message Display" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Changing Message Display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Changing Message Display.run(Changing Message Display:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-20 20:41:27 - [TEST_CASE][FAILED] - Test Cases/Changing Message Display: Test Cases/Changing Message Display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Changing Message Display.run(Changing Message Display:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-20 20:41:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 20:41:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 20:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 20:41:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:41:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 20:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:41:40 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 20:41:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:41:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 20:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Changing Message Display/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Changing Message Display/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Changing Message Display/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 20:41:41 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path")): Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Changing Message Display.run(Changing Message Display:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576846923586.run(Script1576846923586.groovy:31)
+	... 13 more
+)
+
+2019-12-20 20:42:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-20 20:42:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Changing Message Display.run(Changing Message Display:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576846923586.run(Script1576846923586.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_202817/Run all test cases/20191220_202817/1576849345416.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-20 20:41:27 - [TEST_CASE][FAILED] - Test Cases/Changing Message Display: Test Cases/Changing Message Display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Changing Message Display.run(Changing Message Display:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 20:28:21 - [TEST_SUITE][FAILED] - Run all test cases: Test Cases/Edit Account Full Name With All Fields not Filled FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-20 20:28:21 - [TEST_SUITE][FAILED] - Run all test cases: Test Cases/Edit Account Full Name With All Fields not Filled FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Edit Account Full Name With All Fields not Filled.run(Edit Account Full Name With All Fields not Filled:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576848497675.run(TempTestSuite1576848497675.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName' located by 'By.xpath: //input[@id='firstName']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

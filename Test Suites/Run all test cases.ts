@@ -35,55 +35,10 @@
       <testCaseId>Test Cases/Create Private channel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a22bb702-dc5d-4b30-8d52-b93811091497</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create new public channel</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>38f9d9f6-6c89-438e-9f8f-7daa823b8d01</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Channel name data</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>38f9d9f6-6c89-438e-9f8f-7daa823b8d01</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Email</value>
-         <variableId>73e0d6cc-4423-4d30-8828-46380f503325</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>38f9d9f6-6c89-438e-9f8f-7daa823b8d01</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>cd3f1148-fe6f-4422-91b2-4b979bb1979b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>38f9d9f6-6c89-438e-9f8f-7daa823b8d01</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>49cda08e-b67f-4955-80e2-2961b945993d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f1377852-ac70-4aa6-aab6-813ba7e4f9bf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit Account Full Name With All Fields not Filled</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>136105b0-3d09-4590-be87-0bfdf5f3e34c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Edit Team Name With Valid Fom</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e8f4e93-15ed-404f-bc96-7d407c45b769</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit Team Name With Invalid Form</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>556950a5-fae2-4a8b-ad4c-e1f3901eb004</guid>
@@ -128,12 +83,6 @@
       <testCaseId>Test Cases/Create message on private channel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>49884803-5160-4323-87dc-5546a177a574</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tag private member in private channel</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ce2bbbbd-5268-4823-ab95-ea7463830cb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -168,5 +117,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/View info public channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33ee10fe-f910-4765-81c3-6c8e498ca456</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Changing Language</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec985b3b-5d7a-4fa1-bee4-79895b45dcf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rename public channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e10f6316-4052-470d-b964-445bcaaa671e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rename private channel purpose</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de96f8f3-364d-41b9-9304-339cb1cc96ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rename private channel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

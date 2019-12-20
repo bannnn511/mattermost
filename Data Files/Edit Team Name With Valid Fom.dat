@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Edit Team Name With Valid Fom</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>54074aff-4006-426c-a9ed-7ca1bc21082a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Rednit</data>
+   <data>Team+10</data>
+   <data>Gucci+Gang</data>
+   <data>Vina+Gang</data>
+   <data>Squad</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>TeamName</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

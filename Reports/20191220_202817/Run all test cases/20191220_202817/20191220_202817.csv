@@ -1,0 +1,228 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Firefox 71.0,,,2019-12-20 20:28:21,2019-12-20 20:42:25,14m - 4.508s,FAILED
+,,,,,,,
+Test Cases/Login with wrong password,Firefox 71.0,Test webpage login function with wrong passwords,,2019-12-20 20:28:21,2019-12-20 20:28:50,28.805s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:28:22,2019-12-20 20:28:28,6.156s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com"")",Firefox 71.0,,,2019-12-20 20:28:28,2019-12-20 20:28:37,8.838s,PASSED
+"setText(findTestObject(""Login/Login succed/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:28:37,2019-12-20 20:28:42,5.165s,PASSED
+"setEncryptedText(findTestObject(""Login/Login succed/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:28:42,2019-12-20 20:28:44,2.298s,PASSED
+"click(findTestObject(""Login/Login succed/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:28:44,2019-12-20 20:28:47,2.868s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:28:47,2019-12-20 20:28:50,3.027s,PASSED
+,,,,,,,
+Test Cases/Login with correct password,Firefox 71.0,Test webpage login function with correct password,,2019-12-20 20:28:50,2019-12-20 20:29:16,25.729s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:28:50,2019-12-20 20:28:55,4.563s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com"")",Firefox 71.0,,,2019-12-20 20:28:55,2019-12-20 20:29:02,6.859s,PASSED
+"setText(findTestObject(""Login/Login failed/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:29:02,2019-12-20 20:29:07,4.970s,PASSED
+"setEncryptedText(findTestObject(""Login/Login failed/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:29:07,2019-12-20 20:29:09,2.226s,PASSED
+"click(findTestObject(""Login/Login failed/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:29:09,2019-12-20 20:29:12,2.821s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:29:12,2019-12-20 20:29:16,3.928s,PASSED
+,,,,,,,
+Test Cases/Forgot passwords,Firefox 71.0,Test forgot passwords function to retrieve passwords,,2019-12-20 20:29:16,2019-12-20 20:29:42,25.949s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:29:16,2019-12-20 20:29:21,4.652s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:29:21,2019-12-20 20:29:28,7.868s,PASSED
+"click(findTestObject(""Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password""))",Firefox 71.0,,,2019-12-20 20:29:28,2019-12-20 20:29:36,7.089s,PASSED
+"setText(findTestObject(""Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79""), ""habinhan1999@gmail.com"")",Firefox 71.0,,,2019-12-20 20:29:36,2019-12-20 20:29:37,1.420s,PASSED
+"click(findTestObject(""Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password""))",Firefox 71.0,,,2019-12-20 20:29:37,2019-12-20 20:29:40,2.861s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:29:40,2019-12-20 20:29:42,1.847s,PASSED
+,,,,,,,
+Test Cases/Create Private channel,Firefox 71.0,Test function create private channel,,2019-12-20 20:29:42,2019-12-20 20:30:18,36.737s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:29:42,2019-12-20 20:29:47,4.623s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com"")",Firefox 71.0,,,2019-12-20 20:29:47,2019-12-20 20:29:51,4.566s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:29:51,2019-12-20 20:29:56,4.924s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:29:56,2019-12-20 20:29:58,2.252s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:29:58,2019-12-20 20:30:01,2.822s,PASSED
+"click(findTestObject(""Private channel/span_""))",Firefox 71.0,,,2019-12-20 20:30:01,2019-12-20 20:30:06,5.077s,PASSED
+"setText(findTestObject(""Private channel/input_Name_newChannelName""), ""Test create private channel"")",Firefox 71.0,,,2019-12-20 20:30:06,2019-12-20 20:30:10,3.524s,PASSED
+"click(findTestObject(""Private channel/span_Create New Channel""))",Firefox 71.0,,,2019-12-20 20:30:10,2019-12-20 20:30:12,2.799s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:30:12,2019-12-20 20:30:18,5.923s,PASSED
+,,,,,,,
+Test Cases/Edit Account Full Name With All Fields not Filled,Firefox 71.0,,,2019-12-20 20:30:18,2019-12-20 20:31:56,1m - 37.830s,FAILED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:30:19,2019-12-20 20:30:23,4.730s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:30:23,2019-12-20 20:30:30,6.122s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5""), ""hieuminhnguyen95@gmail.com"")",Firefox 71.0,,,2019-12-20 20:30:30,2019-12-20 20:30:36,6.520s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733""), ""MkITpGSjdNjAaKH8FIw/Og=="")",Firefox 71.0,,,2019-12-20 20:30:36,2019-12-20 20:30:38,2.158s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:30:38,2019-12-20 20:30:41,2.846s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e""))",Firefox 71.0,,,2019-12-20 20:30:41,2019-12-20 20:30:46,5.162s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings""))",Firefox 71.0,,,2019-12-20 20:30:46,2019-12-20 20:30:50,4.021s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit""))",Firefox 71.0,,,2019-12-20 20:30:50,2019-12-20 20:31:23,32.914s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName""), """")",Firefox 71.0,,,2019-12-20 20:31:23,2019-12-20 20:31:56,33.062s,FAILED
+,,,,,,,
+Test Cases/Edit Team Name With Valid Fom,Firefox 71.0,,,2019-12-20 20:31:56,2019-12-20 20:32:43,47.126s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:31:56,2019-12-20 20:32:02,5.621s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:32:02,2019-12-20 20:32:08,5.511s,PASSED
+"setText(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5""), ""hieuminhnguyen95@gmail.com"")",Firefox 71.0,,,2019-12-20 20:32:08,2019-12-20 20:32:14,5.933s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733""), ""MkITpGSjdNjAaKH8FIw/Og=="")",Firefox 71.0,,,2019-12-20 20:32:14,2019-12-20 20:32:15,1.422s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:32:15,2019-12-20 20:32:18,2.941s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg""))",Firefox 71.0,,,2019-12-20 20:32:18,2019-12-20 20:32:23,5.221s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings""))",Firefox 71.0,,,2019-12-20 20:32:23,2019-12-20 20:32:26,2.938s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit""))",Firefox 71.0,,,2019-12-20 20:32:26,2019-12-20 20:32:38,12.421s,PASSED
+"setText(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName""), ""Squad"")",Firefox 71.0,,,2019-12-20 20:32:38,2019-12-20 20:32:39,0.393s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save""))",Firefox 71.0,,,2019-12-20 20:32:39,2019-12-20 20:32:40,0.725s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_""))",Firefox 71.0,,,2019-12-20 20:32:40,2019-12-20 20:32:41,0.918s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:32:41,2019-12-20 20:32:43,2.845s,PASSED
+,,,,,,,
+Test Cases/Edit Team Name With Invalid Form,Firefox 71.0,,,2019-12-20 20:32:43,2019-12-20 20:34:19,1m - 35.249s,FAILED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:32:44,2019-12-20 20:32:48,4.441s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:32:48,2019-12-20 20:32:53,4.977s,PASSED
+"setText(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5""), ""hieuminhnguyen95@gmail.com"")",Firefox 71.0,,,2019-12-20 20:32:53,2019-12-20 20:32:58,4.708s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733""), ""MkITpGSjdNjAaKH8FIw/Og=="")",Firefox 71.0,,,2019-12-20 20:32:58,2019-12-20 20:33:00,2.326s,PASSED
+"click(findTestObject(""Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:33:00,2019-12-20 20:33:03,2.837s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/svg""))",Firefox 71.0,,,2019-12-20 20:33:03,2019-12-20 20:33:08,5.064s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Team Settings""))",Firefox 71.0,,,2019-12-20 20:33:08,2019-12-20 20:33:11,3.044s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Edit""))",Firefox 71.0,,,2019-12-20 20:33:11,2019-12-20 20:33:44,32.957s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName""), """")",Firefox 71.0,,,2019-12-20 20:33:44,2019-12-20 20:34:19,34.601s,FAILED
+,,,,,,,
+Test Cases/Edit public channel purpose,Firefox 71.0,,,2019-12-20 20:34:19,2019-12-20 20:34:51,32.556s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:34:19,2019-12-20 20:34:25,6.097s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:34:25,2019-12-20 20:34:33,8.262s,PASSED
+"setText(findTestObject(""Page_Mattermost/input_All team communication in one place s_703ef5""), ""dhgbao@apcs.vn"")",Firefox 71.0,,,2019-12-20 20:34:33,2019-12-20 20:34:38,4.628s,PASSED
+"setEncryptedText(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Firefox 71.0,,,2019-12-20 20:34:38,2019-12-20 20:34:38,0.586s,PASSED
+"sendKeys(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), Keys.chord(ENTER))",Firefox 71.0,,,2019-12-20 20:34:38,2019-12-20 20:34:39,0.546s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon""))",Firefox 71.0,,,2019-12-20 20:34:39,2019-12-20 20:34:43,3.998s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose""))",Firefox 71.0,,,2019-12-20 20:34:43,2019-12-20 20:34:44,0.555s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab""), ""t"")",Firefox 71.0,,,2019-12-20 20:34:44,2019-12-20 20:34:44,0.360s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t""), ""te"")",Firefox 71.0,,,2019-12-20 20:34:44,2019-12-20 20:34:44,0.483s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te""), ""tes"")",Firefox 71.0,,,2019-12-20 20:34:44,2019-12-20 20:34:45,0.577s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes""), ""test"")",Firefox 71.0,,,2019-12-20 20:34:45,2019-12-20 20:34:46,0.558s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save""))",Firefox 71.0,,,2019-12-20 20:34:46,2019-12-20 20:34:46,0.658s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:34:46,2019-12-20 20:34:51,4.953s,PASSED
+,,,,,,,
+Test Cases/Edit Account Full Name With All Fields Filled,Firefox 71.0,,,2019-12-20 20:34:51,2019-12-20 20:35:23,31.945s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:34:52,2019-12-20 20:34:57,5.067s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:34:57,2019-12-20 20:35:04,7.123s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5""), ""hieuminhnguyen95@gmail.com"")",Firefox 71.0,,,2019-12-20 20:35:04,2019-12-20 20:35:09,4.987s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733""), ""MkITpGSjdNjAaKH8FIw/Og=="")",Firefox 71.0,,,2019-12-20 20:35:09,2019-12-20 20:35:10,0.573s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:35:10,2019-12-20 20:35:10,0.645s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e""))",Firefox 71.0,,,2019-12-20 20:35:10,2019-12-20 20:35:15,4.541s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings""))",Firefox 71.0,,,2019-12-20 20:35:15,2019-12-20 20:35:16,0.909s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit""))",Firefox 71.0,,,2019-12-20 20:35:16,2019-12-20 20:35:17,1.308s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName""), FirstName)",Firefox 71.0,,,2019-12-20 20:35:17,2019-12-20 20:35:18,0.686s,PASSED
+"setText(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName""), LastName)",Firefox 71.0,,,2019-12-20 20:35:18,2019-12-20 20:35:18,0.314s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save""))",Firefox 71.0,,,2019-12-20 20:35:18,2019-12-20 20:35:19,0.726s,PASSED
+"click(findTestObject(""Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_""))",Firefox 71.0,,,2019-12-20 20:35:19,2019-12-20 20:35:19,0.563s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:35:19,2019-12-20 20:35:23,3.888s,PASSED
+,,,,,,,
+Test Cases/Edit public channel headers,Firefox 71.0,,,2019-12-20 20:35:23,2019-12-20 20:36:21,58.102s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:35:23,2019-12-20 20:35:28,4.949s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:35:28,2019-12-20 20:35:36,7.797s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5""), ""dhgbao@apcs.vn"")",Firefox 71.0,,,2019-12-20 20:35:36,2019-12-20 20:35:41,5.347s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733""), ""123456789"")",Firefox 71.0,,,2019-12-20 20:35:41,2019-12-20 20:35:44,2.255s,PASSED
+"sendKeys(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733""), Keys.chord(ENTER))",Firefox 71.0,,,2019-12-20 20:35:44,2019-12-20 20:35:46,2.168s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon""))",Firefox 71.0,,,2019-12-20 20:35:46,2019-12-20 20:35:52,5.984s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header""))",Firefox 71.0,,,2019-12-20 20:35:52,2019-12-20 20:35:57,5.006s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox""), ""P"")",Firefox 71.0,,,2019-12-20 20:35:57,2019-12-20 20:36:00,3.404s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P""), ""Pr"")",Firefox 71.0,,,2019-12-20 20:36:00,2019-12-20 20:36:03,3.045s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr""), ""Pro"")",Firefox 71.0,,,2019-12-20 20:36:03,2019-12-20 20:36:05,2.060s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro""), ""Proj"")",Firefox 71.0,,,2019-12-20 20:36:05,2019-12-20 20:36:07,2.035s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj""), ""Proje"")",Firefox 71.0,,,2019-12-20 20:36:07,2019-12-20 20:36:09,2.058s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje""), ""Projec"")",Firefox 71.0,,,2019-12-20 20:36:09,2019-12-20 20:36:12,3.024s,PASSED
+"setText(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec""), ""Project"")",Firefox 71.0,,,2019-12-20 20:36:12,2019-12-20 20:36:16,3.082s,PASSED
+"click(findTestObject(""Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save""))",Firefox 71.0,,,2019-12-20 20:36:16,2019-12-20 20:36:18,2.660s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:36:18,2019-12-20 20:36:21,3.065s,PASSED
+,,,,,,,
+Test Cases/Change Team Description,Firefox 71.0,,,2019-12-20 20:36:21,2019-12-20 20:37:43,1m - 21.994s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:36:21,2019-12-20 20:36:32,10.945s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:36:32,2019-12-20 20:36:43,10.619s,PASSED
+"setText(findTestObject(""Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5""), ""hieuminhnguyen95@gmail.com"")",Firefox 71.0,,,2019-12-20 20:36:43,2019-12-20 20:36:51,8.356s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733""), ""MkITpGSjdNjAaKH8FIw/Og=="")",Firefox 71.0,,,2019-12-20 20:36:51,2019-12-20 20:36:52,0.681s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:36:52,2019-12-20 20:36:53,0.774s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span""))",Firefox 71.0,,,2019-12-20 20:36:53,2019-12-20 20:36:59,6.503s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings""))",Firefox 71.0,,,2019-12-20 20:36:59,2019-12-20 20:37:04,5.113s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit""))",Firefox 71.0,,,2019-12-20 20:37:04,2019-12-20 20:37:06,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription""), ""description"")",Firefox 71.0,,,2019-12-20 20:37:06,2019-12-20 20:37:08,1.525s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save""))",Firefox 71.0,,,2019-12-20 20:37:08,2019-12-20 20:37:11,2.795s,PASSED
+"click(findTestObject(""Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_""))",Firefox 71.0,,,2019-12-20 20:37:11,2019-12-20 20:37:42,31.596s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:37:42,2019-12-20 20:37:43,0.869s,PASSED
+,,,,,,,
+Test Cases/Create message on private channel,Firefox 71.0,,,2019-12-20 20:37:43,2019-12-20 20:38:17,34.063s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:37:43,2019-12-20 20:37:47,3.298s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:37:47,2019-12-20 20:37:57,10.808s,PASSED
+"setText(findTestObject(""Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:37:57,2019-12-20 20:38:04,6.711s,PASSED
+"setEncryptedText(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:38:04,2019-12-20 20:38:05,0.544s,PASSED
+"click(findTestObject(""Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:38:05,2019-12-20 20:38:05,0.726s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel""))",Firefox 71.0,,,2019-12-20 20:38:05,2019-12-20 20:38:11,5.122s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f""), ""h"")",Firefox 71.0,,,2019-12-20 20:38:11,2019-12-20 20:38:11,0.595s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h""), ""he"")",Firefox 71.0,,,2019-12-20 20:38:11,2019-12-20 20:38:12,0.663s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he""), ""hel"")",Firefox 71.0,,,2019-12-20 20:38:12,2019-12-20 20:38:12,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel""), ""hell"")",Firefox 71.0,,,2019-12-20 20:38:12,2019-12-20 20:38:13,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell""), ""hello"")",Firefox 71.0,,,2019-12-20 20:38:13,2019-12-20 20:38:14,0.579s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:38:14,2019-12-20 20:38:17,3.799s,PASSED
+,,,,,,,
+Test Cases/Tag public member in private channel,Firefox 71.0,,,2019-12-20 20:38:17,2019-12-20 20:38:49,31.693s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:38:18,2019-12-20 20:38:21,3.272s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com"")",Firefox 71.0,,,2019-12-20 20:38:21,2019-12-20 20:38:28,7.423s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:38:28,2019-12-20 20:38:34,5.870s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:38:34,2019-12-20 20:38:37,2.383s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:38:37,2019-12-20 20:38:40,2.971s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel""))",Firefox 71.0,,,2019-12-20 20:38:40,2019-12-20 20:38:43,3.765s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f""), ""@"")",Firefox 71.0,,,2019-12-20 20:38:43,2019-12-20 20:38:44,0.727s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct""))",Firefox 71.0,,,2019-12-20 20:38:44,2019-12-20 20:38:45,1.136s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:38:45,2019-12-20 20:38:49,3.857s,PASSED
+,,,,,,,
+Test Cases/Get team invite link,Firefox 71.0,,,2019-12-20 20:38:49,2019-12-20 20:39:37,47.614s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:38:49,2019-12-20 20:38:53,3.712s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:38:53,2019-12-20 20:39:05,11.977s,PASSED
+"setText(findTestObject(""Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5""), ""dhgbao@apcs.vn"")",Firefox 71.0,,,2019-12-20 20:39:05,2019-12-20 20:39:11,6.591s,PASSED
+"setText(findTestObject(""Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733""), ""123456789"")",Firefox 71.0,,,2019-12-20 20:39:11,2019-12-20 20:39:14,2.148s,PASSED
+"sendKeys(findTestObject(""Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733""), Keys.chord(ENTER))",Firefox 71.0,,,2019-12-20 20:39:14,2019-12-20 20:39:16,2.128s,PASSED
+"click(findTestObject(""Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg""))",Firefox 71.0,,,2019-12-20 20:39:16,2019-12-20 20:39:26,9.811s,PASSED
+"click(findTestObject(""Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link""))",Firefox 71.0,,,2019-12-20 20:39:26,2019-12-20 20:39:29,3.045s,PASSED
+"click(findTestObject(""Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link""))",Firefox 71.0,,,2019-12-20 20:39:29,2019-12-20 20:39:32,3.068s,PASSED
+"click(findTestObject(""Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close""))",Firefox 71.0,,,2019-12-20 20:39:32,2019-12-20 20:39:34,2.050s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:39:34,2019-12-20 20:39:37,2.936s,PASSED
+,,,,,,,
+Test Cases/Rename private channel,Firefox 71.0,,,2019-12-20 20:39:37,2019-12-20 20:40:04,26.870s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:39:37,2019-12-20 20:39:40,3.502s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com"")",Firefox 71.0,,,2019-12-20 20:39:40,2019-12-20 20:39:47,6.189s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:39:47,2019-12-20 20:39:52,4.993s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:39:52,2019-12-20 20:39:52,0.533s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:39:52,2019-12-20 20:39:53,0.730s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel""))",Firefox 71.0,,,2019-12-20 20:39:53,2019-12-20 20:39:58,4.645s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01""))",Firefox 71.0,,,2019-12-20 20:39:58,2019-12-20 20:39:59,1.205s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel""))",Firefox 71.0,,,2019-12-20 20:39:59,2019-12-20 20:39:59,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name""), ""Test private channel"")",Firefox 71.0,,,2019-12-20 20:39:59,2019-12-20 20:40:00,0.514s,PASSED
+"click(findTestObject(""Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save""))",Firefox 71.0,,,2019-12-20 20:40:00,2019-12-20 20:40:01,0.760s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:40:01,2019-12-20 20:40:04,2.791s,PASSED
+,,,,,,,
+Test Cases/View members,Firefox 71.0,,,2019-12-20 20:40:04,2019-12-20 20:40:28,24.871s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:40:04,2019-12-20 20:40:07,3.540s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:40:07,2019-12-20 20:40:14,7.107s,PASSED
+"setText(findTestObject(""Page_Mattermost/input_All team communication in one place s_703ef5""), ""dhgbao@apcs.vn"")",Firefox 71.0,,,2019-12-20 20:40:14,2019-12-20 20:40:20,5.286s,PASSED
+"setEncryptedText(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Firefox 71.0,,,2019-12-20 20:40:20,2019-12-20 20:40:20,0.500s,PASSED
+"sendKeys(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), Keys.chord(ENTER))",Firefox 71.0,,,2019-12-20 20:40:20,2019-12-20 20:40:21,0.479s,PASSED
+"click(findTestObject(""Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon""))",Firefox 71.0,,,2019-12-20 20:40:21,2019-12-20 20:40:25,4.111s,PASSED
+"click(findTestObject(""Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members""))",Firefox 71.0,,,2019-12-20 20:40:25,2019-12-20 20:40:26,0.747s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:40:26,2019-12-20 20:40:28,2.873s,PASSED
+,,,,,,,
+Test Cases/View Private channel info,Firefox 71.0,,,2019-12-20 20:40:28,2019-12-20 20:41:00,31.253s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:40:29,2019-12-20 20:40:33,3.847s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:40:33,2019-12-20 20:40:41,8.101s,PASSED
+"setText(findTestObject(""Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:40:41,2019-12-20 20:40:46,5.614s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:40:46,2019-12-20 20:40:47,0.562s,PASSED
+"click(findTestObject(""Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in""))",Firefox 71.0,,,2019-12-20 20:40:47,2019-12-20 20:40:48,0.672s,PASSED
+"click(findTestObject(""Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel""))",Firefox 71.0,,,2019-12-20 20:40:48,2019-12-20 20:40:52,4.616s,PASSED
+"click(findTestObject(""Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01""))",Firefox 71.0,,,2019-12-20 20:40:52,2019-12-20 20:40:54,1.291s,PASSED
+"click(findTestObject(""Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info""))",Firefox 71.0,,,2019-12-20 20:40:54,2019-12-20 20:40:54,0.642s,PASSED
+"click(findTestObject(""Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_""))",Firefox 71.0,,,2019-12-20 20:40:54,2019-12-20 20:40:55,0.592s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:40:55,2019-12-20 20:41:00,4.936s,PASSED
+,,,,,,,
+Test Cases/View info public channel,Firefox 71.0,,,2019-12-20 20:41:00,2019-12-20 20:41:27,27.563s,PASSED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:41:00,2019-12-20 20:41:04,4.180s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:41:04,2019-12-20 20:41:11,6.638s,PASSED
+"setText(findTestObject(""Page_Mattermost/input_All team communication in one place s_703ef5""), ""dhgbao@apcs.vn"")",Firefox 71.0,,,2019-12-20 20:41:11,2019-12-20 20:41:20,9.171s,PASSED
+"setEncryptedText(findTestObject(""Page_Mattermost/input_All team communication in one place s_2f2733""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Firefox 71.0,,,2019-12-20 20:41:20,2019-12-20 20:41:20,0.558s,PASSED
+"click(findTestObject(""Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:41:20,2019-12-20 20:41:21,0.766s,PASSED
+"click(findTestObject(""Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon""))",Firefox 71.0,,,2019-12-20 20:41:21,2019-12-20 20:41:25,3.667s,PASSED
+"click(findTestObject(""Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info""))",Firefox 71.0,,,2019-12-20 20:41:25,2019-12-20 20:41:25,0.636s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-20 20:41:25,2019-12-20 20:41:27,1.800s,PASSED
+,,,,,,,
+Test Cases/Changing Language,Firefox 71.0,,,2019-12-20 20:41:27,2019-12-20 20:41:27,0.134s,PASSED
+return null,Firefox 71.0,,,2019-12-20 20:41:27,2019-12-20 20:41:27,0.001s,PASSED
+,,,,,,,
+Test Cases/Changing Message Display,Firefox 71.0,,,2019-12-20 20:41:27,2019-12-20 20:42:25,57.793s,FAILED
+"openBrowser("""")",Firefox 71.0,,,2019-12-20 20:41:28,2019-12-20 20:41:31,3.435s,PASSED
+"navigateToUrl(""https://mattermost-usecase.herokuapp.com/"")",Firefox 71.0,,,2019-12-20 20:41:31,2019-12-20 20:41:35,4.453s,PASSED
+"setText(findTestObject(""Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_703ef5""), ""bannnnn"")",Firefox 71.0,,,2019-12-20 20:41:35,2019-12-20 20:41:40,4.437s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Changing Message Display/Page_Mattermost/input_All team communication in one place s_2f2733""), ""6M8jdlTs8n6rOnocPaG5Cw=="")",Firefox 71.0,,,2019-12-20 20:41:40,2019-12-20 20:41:40,0.579s,PASSED
+"click(findTestObject(""Object Repository/Changing Message Display/Page_Mattermost/span_Sign in""))",Firefox 71.0,,,2019-12-20 20:41:40,2019-12-20 20:41:41,0.659s,PASSED
+"click(findTestObject(""Object Repository/Changing Message Display/Page_(2) Town Square - Rednit Mattermost/path""))",Firefox 71.0,,,2019-12-20 20:41:41,2019-12-20 20:42:25,44.101s,FAILED

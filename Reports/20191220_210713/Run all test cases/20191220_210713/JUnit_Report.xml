@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="693.232" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="693.232" timestamp="2019-12-20 21:07:18" hostname="apple - localhost" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_210713/Run all test cases/20191220_210713"/>
+         <property name="logFiles" value="/Users/apple/Desktop/Stduy/katalon-mattermost/dsds/Reports/20191220_210713/Run all test cases/20191220_210713/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="apple - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b81c6e20-d3cb-494b-b1b0-e1361f1a8ea2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login with wrong password" time="29.431" classname="Test Cases/Login with wrong password" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:07:19 - [TEST_CASE][PASSED] - Test Cases/Login with wrong password: Test Cases/Login with wrong password
+
+2019-12-20 21:07:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:07:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:07:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-20 21:07:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:07:32 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:07:37 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login succed/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:07:43 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:07:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Login succed/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:07:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login succed/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login succed/span_Sign in")): Object: 'Object Repository/Login/Login succed/span_Sign in' is clicked on
+
+2019-12-20 21:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login succed/span_Sign in' is clicked on
+
+2019-12-20 21:07:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:07:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with correct password" time="29.097" classname="Test Cases/Login with correct password" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:07:48 - [TEST_CASE][PASSED] - Test Cases/Login with correct password: Test Cases/Login with correct password
+
+2019-12-20 21:07:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:07:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:07:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:07:53 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:08:05 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login failed/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:08:13 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:08:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Login failed/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:08:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login failed/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login failed/span_Sign in")): Object: 'Object Repository/Login/Login failed/span_Sign in' is clicked on
+
+2019-12-20 21:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login failed/span_Sign in' is clicked on
+
+2019-12-20 21:08:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:08:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot passwords" time="21.576" classname="Test Cases/Forgot passwords" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:08:17 - [TEST_CASE][PASSED] - Test Cases/Forgot passwords: Test Cases/Forgot passwords
+
+2019-12-20 21:08:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:08:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:08:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:08:21 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:08:28 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password")): Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password' is clicked on
+
+2019-12-20 21:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_I forgot my password' is clicked on
+
+2019-12-20 21:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79"), "habinhan1999@gmail.com"): Text 'habinhan1999@gmail.com' is set on object 'Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79'
+
+2019-12-20 21:08:35 - [MESSAGE][PASSED] - Text 'habinhan1999@gmail.com' is set on object 'Object Repository/Login/Forgot password/Page_Mattermost/input_To reset your password enter the emai_5f6d79'
+
+2019-12-20 21:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password")): Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password' is clicked on
+
+2019-12-20 21:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Forgot password/Page_Mattermost/span_Reset my password' is clicked on
+
+2019-12-20 21:08:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:08:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Private channel" time="25.865" classname="Test Cases/Create Private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:08:39 - [TEST_CASE][PASSED] - Test Cases/Create Private channel: Test Cases/Create Private channel
+
+2019-12-20 21:08:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:08:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:08:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:08:43 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:08:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:08:55 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:08:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:08:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Private channel/span_")): Object: 'Object Repository/Private channel/span_' is clicked on
+
+2019-12-20 21:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/span_' is clicked on
+
+2019-12-20 21:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Private channel/input_Name_newChannelName"), "Test create private channel"): Text 'Test create private channel' is set on object 'Object Repository/Private channel/input_Name_newChannelName'
+
+2019-12-20 21:09:01 - [MESSAGE][PASSED] - Text 'Test create private channel' is set on object 'Object Repository/Private channel/input_Name_newChannelName'
+
+2019-12-20 21:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Private channel/span_Create New Channel")): Object: 'Object Repository/Private channel/span_Create New Channel' is clicked on
+
+2019-12-20 21:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/span_Create New Channel' is clicked on
+
+2019-12-20 21:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:09:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Team Name With Valid Fom" time="33.958" classname="Test Cases/Edit Team Name With Valid Fom" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:09:05 - [TEST_CASE][PASSED] - Test Cases/Edit Team Name With Valid Fom: Test Cases/Edit Team Name With Valid Fom
+
+2019-12-20 21:09:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:09:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:09:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:09:09 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:09:18 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:09:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:09:24 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:09:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:09:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 21:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/svg' is clicked on
+
+2019-12-20 21:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 21:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 21:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 21:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit' is clicked on
+
+2019-12-20 21:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName"), "Squad"): Text 'Squad' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+
+2019-12-20 21:09:33 - [MESSAGE][PASSED] - Text 'Squad' is set on object 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'
+
+2019-12-20 21:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save' is clicked on
+
+2019-12-20 21:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save' is clicked on
+
+2019-12-20 21:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:09:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:09:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit public channel purpose" time="31.286" classname="Test Cases/Edit public channel purpose" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:09:39 - [TEST_CASE][PASSED] - Test Cases/Edit public channel purpose: Test Cases/Edit public channel purpose
+
+2019-12-20 21:09:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:09:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:09:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:09:43 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:09:49 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:09:58 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:09:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:09:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:09:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:10:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 21:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 21:10:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab"), "t"): Text 't' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab'
+
+2019-12-20 21:10:05 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_Mattermost_form-control no-resize _1ed9ab'
+
+2019-12-20 21:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t"), "te"): Text 'te' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t'
+
+2019-12-20 21:10:05 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_t'
+
+2019-12-20 21:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te"), "tes"): Text 'tes' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te'
+
+2019-12-20 21:10:06 - [MESSAGE][PASSED] - Text 'tes' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_te'
+
+2019-12-20 21:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes"), "test"): Text 'test' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes'
+
+2019-12-20 21:10:06 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/textarea_tes'
+
+2019-12-20 21:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save")): Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save' is clicked on
+
+2019-12-20 21:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelPurpose/Page_Mattermost - ohj Mattermost/button_Save' is clicked on
+
+2019-12-20 21:10:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:10:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Account Full Name With All Fields Filled" time="29.146" classname="Test Cases/Edit Account Full Name With All Fields Filled" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:10:10 - [TEST_CASE][PASSED] - Test Cases/Edit Account Full Name With All Fields Filled: Test Cases/Edit Account Full Name With All Fields Filled
+
+2019-12-20 21:10:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:10:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:10:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:10:14 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:10:21 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:10:26 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:10:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:10:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 21:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 21:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 21:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 21:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 21:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 21:10:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName"), FirstName): Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+
+2019-12-20 21:10:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_First Name_firstName'
+
+2019-12-20 21:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName"), LastName): Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName'
+
+2019-12-20 21:10:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/input_Last Name_lastName'
+
+2019-12-20 21:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save' is clicked on
+
+2019-12-20 21:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_Save' is clicked on
+
+2019-12-20 21:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_(1)  Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:10:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:10:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit public channel headers" time="37.5" classname="Test Cases/Edit public channel headers" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:10:39 - [TEST_CASE][PASSED] - Test Cases/Edit public channel headers: Test Cases/Edit public channel headers
+
+2019-12-20 21:10:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:10:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:10:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:10:43 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:10:52 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:11:03 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733"), "123456789"): Text '123456789' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:03 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EditPublicChannelHeaders/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header' is clicked on
+
+2019-12-20 21:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Edit Channel Header' is clicked on
+
+2019-12-20 21:11:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox"), "P"): Text 'P' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox'
+
+2019-12-20 21:11:10 - [MESSAGE][PASSED] - Text 'P' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Edit the Channel Header_edit_textbox'
+
+2019-12-20 21:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P"), "Pr"): Text 'Pr' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P'
+
+2019-12-20 21:11:10 - [MESSAGE][PASSED] - Text 'Pr' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_P'
+
+2019-12-20 21:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr"), "Pro"): Text 'Pro' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr'
+
+2019-12-20 21:11:11 - [MESSAGE][PASSED] - Text 'Pro' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pr'
+
+2019-12-20 21:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro"), "Proj"): Text 'Proj' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro'
+
+2019-12-20 21:11:11 - [MESSAGE][PASSED] - Text 'Proj' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Pro'
+
+2019-12-20 21:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj"), "Proje"): Text 'Proje' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj'
+
+2019-12-20 21:11:12 - [MESSAGE][PASSED] - Text 'Proje' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proj'
+
+2019-12-20 21:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje"), "Projec"): Text 'Projec' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje'
+
+2019-12-20 21:11:12 - [MESSAGE][PASSED] - Text 'Projec' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Proje'
+
+2019-12-20 21:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec"), "Project"): Text 'Project' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec'
+
+2019-12-20 21:11:13 - [MESSAGE][PASSED] - Text 'Project' is set on object 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/textarea_Projec'
+
+2019-12-20 21:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save")): Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save' is clicked on
+
+2019-12-20 21:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EditPublicChannelHeaders/Page_ Town Square - asdasdas Mattermost/button_Save' is clicked on
+
+2019-12-20 21:11:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:11:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Team Description" time="35.548" classname="Test Cases/Change Team Description" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:11:16 - [TEST_CASE][PASSED] - Test Cases/Change Team Description: Test Cases/Change Team Description
+
+2019-12-20 21:11:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:11:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:11:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:11:20 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:11:28 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:11:37 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:11:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733"), "MkITpGSjdNjAaKH8FIw/Og=="): Text ****** has been set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Change Team Description/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Change Team Description/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span' is clicked on
+
+2019-12-20 21:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span' is clicked on
+
+2019-12-20 21:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 21:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 21:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 21:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit' is clicked on
+
+2019-12-20 21:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription"), "description"): Text 'description' is set on object 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 21:11:47 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 21:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save' is clicked on
+
+2019-12-20 21:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save' is clicked on
+
+2019-12-20 21:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_")): Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_' is clicked on
+
+2019-12-20 21:11:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:11:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create message on private channel" time="36.3" classname="Test Cases/Create message on private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:11:52 - [TEST_CASE][PASSED] - Test Cases/Create message on private channel: Test Cases/Create message on private channel
+
+2019-12-20 21:11:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:11:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:11:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:11:59 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:12:10 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:12:17 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:12:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:12:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:12:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f"), "h"): Text 'h' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 21:12:23 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 21:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h"), "he"): Text 'he' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h'
+
+2019-12-20 21:12:24 - [MESSAGE][PASSED] - Text 'he' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_h'
+
+2019-12-20 21:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he"), "hel"): Text 'hel' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he'
+
+2019-12-20 21:12:24 - [MESSAGE][PASSED] - Text 'hel' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_he'
+
+2019-12-20 21:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel"), "hell"): Text 'hell' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel'
+
+2019-12-20 21:12:25 - [MESSAGE][PASSED] - Text 'hell' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hel'
+
+2019-12-20 21:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell"), "hello"): Text 'hello' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell'
+
+2019-12-20 21:12:26 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Private channel/Page_Test create private channel - test-cas_2f9e36/textarea_hell'
+
+2019-12-20 21:12:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:12:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tag public member in private channel" time="38.073" classname="Test Cases/Tag public member in private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:12:28 - [TEST_CASE][PASSED] - Test Cases/Tag public member in private channel: Test Cases/Tag public member in private channel
+
+2019-12-20 21:12:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:12:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:12:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:12:32 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:12:45 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:12:54 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:12:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:12:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f"), "@"): Text '@' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 21:13:01 - [MESSAGE][PASSED] - Text '@' is set on object 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/textarea_Write to Test create private chann_a08f9f'
+
+2019-12-20 21:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct")): Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct' is clicked on
+
+2019-12-20 21:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Tag public member into private channel/Page_Test create private channel - test-cas_2f9e36/div_h13uct' is clicked on
+
+2019-12-20 21:13:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:13:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get team invite link" time="50.629" classname="Test Cases/Get team invite link" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:13:06 - [TEST_CASE][PASSED] - Test Cases/Get team invite link: Test Cases/Get team invite link
+
+2019-12-20 21:13:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:13:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:13:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:13:10 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:13:42 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:13:48 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:13:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733"), "123456789"): Text '123456789' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:13:48 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:13:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:13:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/GetTeamInviteLink/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg' is clicked on
+
+2019-12-20 21:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/svg' is clicked on
+
+2019-12-20 21:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link' is clicked on
+
+2019-12-20 21:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/button_Get Team Invite Link' is clicked on
+
+2019-12-20 21:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link' is clicked on
+
+2019-12-20 21:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Copy Link' is clicked on
+
+2019-12-20 21:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close")): Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close' is clicked on
+
+2019-12-20 21:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GetTeamInviteLink/Page_Town Square - asdasdas Mattermost/span_Close' is clicked on
+
+2019-12-20 21:13:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:13:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rename private channel" time="35.404" classname="Test Cases/Rename private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:13:57 - [TEST_CASE][PASSED] - Test Cases/Rename private channel: Test Cases/Rename private channel
+
+2019-12-20 21:13:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:13:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:14:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:14:02 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:14:12 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:14:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:14:19 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:14:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 21:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 21:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name"), "Test private channel"): Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 21:14:27 - [MESSAGE][PASSED] - Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 21:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 21:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 21:14:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:14:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View members" time="30.154" classname="Test Cases/View members" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:14:32 - [TEST_CASE][PASSED] - Test Cases/View members: Test Cases/View members
+
+2019-12-20 21:14:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:14:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:14:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:14:37 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:14:47 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:14:53 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:14:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members")): Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members' is clicked on
+
+2019-12-20 21:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewMembers/Page_Mattermost - ohj Mattermost/button_View Members' is clicked on
+
+2019-12-20 21:15:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:15:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Private channel info" time="41.176" classname="Test Cases/View Private channel info" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:15:03 - [TEST_CASE][PASSED] - Test Cases/View Private channel info: Test Cases/View Private channel info
+
+2019-12-20 21:15:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:15:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:15:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:15:13 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:15:20 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:15:26 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:15:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:15:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/View private channel info/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in")): Object: 'Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in' is clicked on
+
+2019-12-20 21:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_Mattermost/button_Sign in' is clicked on
+
+2019-12-20 21:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Town Square - Rednit Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info' is clicked on
+
+2019-12-20 21:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/button_View Info' is clicked on
+
+2019-12-20 21:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_")): Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_' is clicked on
+
+2019-12-20 21:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/View private channel info/Page_(3) Test create private channel - Redn_9fffd9/span_' is clicked on
+
+2019-12-20 21:15:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:15:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View info public channel" time="38.45" classname="Test Cases/View info public channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:15:44 - [TEST_CASE][PASSED] - Test Cases/View info public channel: Test Cases/View info public channel
+
+2019-12-20 21:15:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:15:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:15:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:15:49 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:15:58 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:16:08 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:16:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Mattermost/input_All team communication in one place s_2f2733"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/span_Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info")): Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info' is clicked on
+
+2019-12-20 21:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ViewInfoPublicChannel/Page_Mattermost - ohj Mattermost/button_View Info' is clicked on
+
+2019-12-20 21:16:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:16:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Changing Language" time="0.126" classname="Test Cases/Changing Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:16:22 - [TEST_CASE][PASSED] - Test Cases/Changing Language: Test Cases/Changing Language
+
+2019-12-20 21:16:22 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rename public channel" time="52.781" classname="Test Cases/Rename public channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:16:22 - [TEST_CASE][PASSED] - Test Cases/Rename public channel: Test Cases/Rename public channel
+
+2019-12-20 21:16:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:16:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:16:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:16:26 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:16:37 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 21:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "dhgbao@apcs.vn"): Text 'dhgbao@apcs.vn' is set on object 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:16:44 - [MESSAGE][PASSED] - Text 'dhgbao@apcs.vn' is set on object 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:16:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "M/uRr0K2+VEvVRwx2nTt7w=="): Text ****** has been set on object 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/RenamePublicChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Test Mattermost_channelHeaderDropdownIcon")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Test Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Test Mattermost_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 21:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/button_Rename Channel")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/button_Rename Channel' is clicked on
+
+2019-12-20 21:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/button_Rename Channel' is clicked on
+
+2019-12-20 21:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name' is clicked on
+
+2019-12-20 21:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name' is clicked on
+
+2019-12-20 21:17:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name"), "Mattermost"): Text 'Mattermost' is set on object 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name'
+
+2019-12-20 21:17:12 - [MESSAGE][PASSED] - Text 'Mattermost' is set on object 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_Display Name_display_name'
+
+2019-12-20 21:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/div_URL - Cannot be changed for the default_950f6a")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/div_URL - Cannot be changed for the default_950f6a' is clicked on
+
+2019-12-20 21:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/div_URL - Cannot be changed for the default_950f6a' is clicked on
+
+2019-12-20 21:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_httpsmacomasdasdaschannels_channel_name")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_httpsmacomasdasdaschannels_channel_name' is clicked on
+
+2019-12-20 21:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/input_httpsmacomasdasdaschannels_channel_name' is clicked on
+
+2019-12-20 21:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Save")): Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Save' is clicked on
+
+2019-12-20 21:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RenamePublicChannel/Page_ Test Mattermost - asdasdas Mattermost/span_Save' is clicked on
+
+2019-12-20 21:17:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:17:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rename private channel purpose" time="59.562" classname="Test Cases/Rename private channel purpose" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:17:15 - [TEST_CASE][PASSED] - Test Cases/Rename private channel purpose: Test Cases/Rename private channel purpose
+
+2019-12-20 21:17:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:17:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:17:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:17:25 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:17:56 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:18:02 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:18:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:18:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Edit channel purpose/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Town Square - test-case Mattermost/span_Test private channel")): Object: 'Object Repository/Private channel/Edit channel purpose/Page_Town Square - test-case Mattermost/span_Test private channel' is clicked on
+
+2019-12-20 21:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Edit channel purpose/Page_Town Square - test-case Mattermost/span_Test private channel' is clicked on
+
+2019-12-20 21:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Test private channel_channelHeaderDrop_17863e")): Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Test private channel_channelHeaderDrop_17863e' is clicked on
+
+2019-12-20 21:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Test private channel_channelHeaderDrop_17863e' is clicked on
+
+2019-12-20 21:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/button_Edit Channel Purpose")): Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 21:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/button_Edit Channel Purpose' is clicked on
+
+2019-12-20 21:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_concat(This text appears in the   _b3359f"), "t"): Text 't' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_concat(This text appears in the   _b3359f'
+
+2019-12-20 21:18:11 - [MESSAGE][PASSED] - Text 't' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_concat(This text appears in the   _b3359f'
+
+2019-12-20 21:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_t"), "te"): Text 'te' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_t'
+
+2019-12-20 21:18:12 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_t'
+
+2019-12-20 21:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_te"), "tes"): Text 'tes' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_te'
+
+2019-12-20 21:18:12 - [MESSAGE][PASSED] - Text 'tes' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_te'
+
+2019-12-20 21:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_tes"), "test"): Text 'test' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_tes'
+
+2019-12-20 21:18:13 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/textarea_tes'
+
+2019-12-20 21:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Save")): Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Save' is clicked on
+
+2019-12-20 21:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Edit channel purpose/Page_Test private channel - test-case Mattermost/span_Save' is clicked on
+
+2019-12-20 21:18:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:18:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rename private channel" time="35.762" classname="Test Cases/Rename private channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 21:18:15 - [TEST_CASE][PASSED] - Test Cases/Rename private channel: Test Cases/Rename private channel
+
+2019-12-20 21:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 21:18:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 21:18:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 21:18:19 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com"): Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:18:31 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com' successfully
+
+2019-12-20 21:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5"), "bannnnn"): Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:18:38 - [MESSAGE][PASSED] - Text 'bannnnn' is set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 21:18:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733"), "6M8jdlTs8n6rOnocPaG5Cw=="): Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:18:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Private channel/Rename private channel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 21:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 21:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Town Square - test-case Mattermost/span_Test create private channel' is clicked on
+
+2019-12-20 21:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/span_Test create private channel_channelHea_71aa01' is clicked on
+
+2019-12-20 21:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 21:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Rename Channel' is clicked on
+
+2019-12-20 21:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name"), "Test private channel"): Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 21:18:47 - [MESSAGE][PASSED] - Text 'Test private channel' is set on object 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/input_Display Name_display_name'
+
+2019-12-20 21:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save")): Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 21:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Private channel/Rename private channel/Page_Test create private channel - test-cas_2f9e36/button_Save' is clicked on
+
+2019-12-20 21:18:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 21:18:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 21:07:18 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/Rename private channel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
