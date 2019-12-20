@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test function invite members to private channel</description>
+   <name>Invite members to private channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ea47333-c151-47ae-a53b-9437f22ded81</testCaseGuid>
+</TestCaseEntity>

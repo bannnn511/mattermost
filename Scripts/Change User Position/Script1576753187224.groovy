@@ -37,7 +37,11 @@ WebUI.click(findTestObject('Object Repository/Change User Position/Page_(4)  Tow
 WebUI.doubleClick(findTestObject('Object Repository/Change User Position/Page_(4)  Town Square - Rednit Mattermost/input_Position_position'))
 
 WebUI.setText(findTestObject('Object Repository/Change User Position/Page_(4)  Town Square - Rednit Mattermost/input_Position_position'), 
+<<<<<<< HEAD
     Position)
+=======
+    'FrontEnd')
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.click(findTestObject('Object Repository/Change User Position/Page_(4)  Town Square - Rednit Mattermost/button_Save'))
 

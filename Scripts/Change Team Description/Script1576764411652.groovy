@@ -35,7 +35,11 @@ WebUI.click(findTestObject('Object Repository/Change Team Description/Page_Town 
 WebUI.click(findTestObject('Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/input_Team Description_teamDescription'), 
+<<<<<<< HEAD
     Description)
+=======
+    'description')
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.click(findTestObject('Object Repository/Change Team Description/Page_Town Square - Squad Mattermost/button_Save'))
 

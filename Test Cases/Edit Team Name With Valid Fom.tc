@@ -5,6 +5,7 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c8b8e646-66fa-4422-9dde-78653c3ff5cc</testCaseGuid>
+<<<<<<< HEAD
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -12,4 +13,6 @@
       <masked>false</masked>
       <name>TeamName</name>
    </variable>
+=======
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 </TestCaseEntity>

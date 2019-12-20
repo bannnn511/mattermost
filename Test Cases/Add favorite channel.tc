@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add favorite channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee3617f0-98f5-42cd-9172-51c0397d1935</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57146f66-0195-4574-a6e6-ac303cc6e2fa</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8147649b-64b8-4ab8-8c06-e90797bfca27</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

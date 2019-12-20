@@ -35,13 +35,20 @@ WebUI.click(findTestObject('Object Repository/Edit Team Name With Valid Form/Pag
 WebUI.click(findTestObject('Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/button_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'), 
+<<<<<<< HEAD
     TeamName)
+=======
+    'Squad')
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.click(findTestObject('Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squads Mattermost/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/Edit Team Name With Valid Form/Page_Town Square - Squad Mattermost/span_'))
 
+<<<<<<< HEAD
 WebUI.delay(3)
 
+=======
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 WebUI.closeBrowser()
 
