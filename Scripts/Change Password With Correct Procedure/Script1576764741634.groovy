@@ -23,8 +23,13 @@ WebUI.navigateToUrl('https://mattermost-usecase.herokuapp.com/')
 WebUI.setText(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'hieuminhnguyen95@gmail.com')
 
+<<<<<<< HEAD
+WebUI.setText(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+    CurrentPW)
+=======
 WebUI.setEncryptedText(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'MkITpGSjdNjAaKH8FIw/Og==')
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.click(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in'))
 
@@ -32,6 +37,26 @@ WebUI.click(findTestObject('Object Repository/Change Password With Correct Proce
 
 WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings'))
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security'))
+
+WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'), 
+    CurrentPW)
+
+WebUI.setText(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'), 
+    NewPW)
+
+WebUI.setText(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'), 
+    RePW)
+
+WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_'))
+=======
 WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_(4)  Town Square - Rednit Mattermost/span_Cancel'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/input_Current Password_currentPassword'), 
@@ -46,6 +71,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Change Password With Co
 WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/span_'))
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.closeBrowser()
 

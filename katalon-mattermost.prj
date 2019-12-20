@@ -4,6 +4,9 @@
    <name>katalon-mattermost</name>
    <tag></tag>
 <<<<<<< HEAD
+   <UUID>fdfdc460-22c7-4776-87ed-f590be646453</UUID>
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
    <UUID>7461267b-24ce-4944-b876-bb8daed5ddb3</UUID>
 =======
@@ -12,6 +15,7 @@
 =======
    <UUID>fdfdc460-22c7-4776-87ed-f590be646453</UUID>
 >>>>>>> Hieu
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>

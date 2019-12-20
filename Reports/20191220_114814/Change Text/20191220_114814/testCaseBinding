@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/Change Team Description - Iteration 1","testCaseId":"Test Cases/Change Team Description","bindedValues":{"Description":"\u0027Front End\u0027"}}
+{"testCaseName":"Test Cases/Change Team Description - Iteration 2","testCaseId":"Test Cases/Change Team Description","bindedValues":{"Description":"\u0027Back End\u0027"}}
+{"testCaseName":"Test Cases/Change Team Description - Iteration 3","testCaseId":"Test Cases/Change Team Description","bindedValues":{"Description":"\u0027Android\u0027"}}
+{"testCaseName":"Test Cases/Change Team Description - Iteration 4","testCaseId":"Test Cases/Change Team Description","bindedValues":{"Description":"\u0027Ios\u0027"}}
+{"testCaseName":"Test Cases/Change Team Description - Iteration 5","testCaseId":"Test Cases/Change Team Description","bindedValues":{"Description":"\u0027Full Stack\u0027"}}
+{"testCaseName":"Test Cases/Change User Position - Iteration 1","testCaseId":"Test Cases/Change User Position","bindedValues":{"Position":"\u0027Front End\u0027"}}
+{"testCaseName":"Test Cases/Change User Position - Iteration 2","testCaseId":"Test Cases/Change User Position","bindedValues":{"Position":"\u0027Back End\u0027"}}
+{"testCaseName":"Test Cases/Change User Position - Iteration 3","testCaseId":"Test Cases/Change User Position","bindedValues":{"Position":"\u0027Android\u0027"}}
+{"testCaseName":"Test Cases/Change User Position - Iteration 4","testCaseId":"Test Cases/Change User Position","bindedValues":{"Position":"\u0027Ios\u0027"}}
+{"testCaseName":"Test Cases/Change User Position - Iteration 5","testCaseId":"Test Cases/Change User Position","bindedValues":{"Position":"\u0027Full Stack\u0027"}}

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
+	<name>D%%katalon-test%katalon-mattermost%katalon-mattermost.prj</name>
+=======
 	<name>%Users%apple%Desktop%Stduy%katalon-mattermost%dsds%dsds.prj</name>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +21,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
+			<id>1576741417798</id>
+=======
 			<id>1576657778678</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +34,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576741417811</id>
+=======
 			<id>1576657778693</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +47,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576753468064</id>
+=======
 			<id>1576658104774</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +60,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576753468080</id>
+=======
 			<id>1576658104785</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -53,7 +73,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576753551978</id>
+=======
 			<id>1576807126150</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -62,7 +86,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576753551994</id>
+=======
 			<id>1576807126171</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -71,7 +99,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576767050125</id>
+=======
 			<id>1576807264220</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -80,7 +112,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576767050141</id>
+=======
 			<id>1576807264225</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -89,7 +125,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576811376703</id>
+=======
 			<id>1576807471994</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -98,6 +138,9 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1576811376715</id>
+=======
 			<id>1576807472004</id>
 			<name></name>
 			<type>6</type>
@@ -225,6 +268,7 @@
 		</filter>
 		<filter>
 			<id>1576814584938</id>
+>>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 			<name></name>
 			<type>6</type>
 			<matcher>
