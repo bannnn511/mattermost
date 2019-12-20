@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Has no team</description>
-   <name>Create new team first time</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f9550286-f4e1-4fe6-9538-51a1bed29d4f</testCaseGuid>
-</TestCaseEntity>

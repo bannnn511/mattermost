@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-<<<<<<< HEAD
          <value></value>
-=======
-         <value>//input[@id='currentPassword']</value>
->>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

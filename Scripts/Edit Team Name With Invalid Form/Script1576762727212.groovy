@@ -35,11 +35,7 @@ WebUI.click(findTestObject('Object Repository/Edit Account Full Name With All Fi
 WebUI.click(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/button_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/input_Team Name_teamName'), 
-<<<<<<< HEAD
     TeamName)
-=======
-    '')
->>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 
 WebUI.click(findTestObject('Object Repository/Edit Account Full Name With All Fields Filled/Edit Team Name With Invalid Form/Page_Town Square - Squads Mattermost/span_Save'))
 

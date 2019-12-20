@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Remove members from team</name>
-   <tag>mange members</tag>
-   <comment></comment>
-   <testCaseGuid>be113f5e-94b5-4a49-8cd9-5e5d70b69b53</testCaseGuid>
-</TestCaseEntity>

@@ -5,7 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5f4a4e3c-542f-4366-a171-99be30bc9113</testCaseGuid>
-<<<<<<< HEAD
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -13,6 +12,4 @@
       <masked>false</masked>
       <name>Position</name>
    </variable>
-=======
->>>>>>> 2674a4903a814dac35075f185200bc06a73f3195
 </TestCaseEntity>

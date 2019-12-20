@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test function create private channel</description>
-   <name>Create Private channel</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>968b1139-741b-47d6-999d-9661b11214e7</testCaseGuid>
-</TestCaseEntity>

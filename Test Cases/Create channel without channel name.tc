@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create channel without channel name</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5ebeef1e-5a1c-470e-8fe1-d61feb6cf30c</testCaseGuid>
-</TestCaseEntity>
