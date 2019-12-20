@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Change Password" time="195.121" tests="5" failures="0" errors="0">
+   <testsuite name="Change Password" tests="5" failures="0" errors="0" time="195.121" timestamp="2019-12-20 11:01:56" hostname="hieum - MinhHieu" id="Test Suites/Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon-mattermost\\Reports\\20191220_110154\\Change Password\\20191220_110154"/>
+         <property name="logFiles" value="D:\\katalon-mattermost\\Reports\\20191220_110154\\Change Password\\20191220_110154\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hieum - MinhHieu"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="10.14.0.39"/>
+         <property name="sessionId" value="4ef0d921-aea4-4749-8c67-718158524c46"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Change Password With Correct Procedure" time="41.103" classname="Test Cases/Change Password With Correct Procedure" status="PASSED">
+         <system-out><![CDATA[2019-12-20 11:01:56 - [TEST_CASE][PASSED] - Test Cases/Change Password With Correct Procedure: Test Cases/Change Password With Correct Procedure
+
+2019-12-20 11:01:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 11:01:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 11:01:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-20 11:02:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 11:02:02 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:02:15 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:02:23 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), CurrentPW): Text 'hieunhoc1999' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:02:23 - [MESSAGE][PASSED] - Text 'hieunhoc1999' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword"), CurrentPW): Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:02:31 - [MESSAGE][PASSED] - Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:02:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword"), NewPW): Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:02:31 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:02:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword"), RePW): Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:02:32 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:02:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 11:02:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Password With Correct Procedure" time="39.136" classname="Test Cases/Change Password With Correct Procedure" status="PASSED">
+         <system-out><![CDATA[2019-12-20 11:02:37 - [TEST_CASE][PASSED] - Test Cases/Change Password With Correct Procedure: Test Cases/Change Password With Correct Procedure
+
+2019-12-20 11:02:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 11:02:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 11:02:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 11:02:42 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:02:54 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:03:02 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), CurrentPW): Text '1234567890' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:03:02 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword"), CurrentPW): Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:03:10 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword"), NewPW): Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:03:11 - [MESSAGE][PASSED] - Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword"), RePW): Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:03:11 - [MESSAGE][PASSED] - Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:03:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 11:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Password With Correct Procedure" time="39.558" classname="Test Cases/Change Password With Correct Procedure" status="PASSED">
+         <system-out><![CDATA[2019-12-20 11:03:16 - [TEST_CASE][PASSED] - Test Cases/Change Password With Correct Procedure: Test Cases/Change Password With Correct Procedure
+
+2019-12-20 11:03:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 11:03:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 11:03:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 11:03:21 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:03:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:03:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:03:43 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), CurrentPW): Text 'minhhieu' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:03:43 - [MESSAGE][PASSED] - Text 'minhhieu' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:03:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword"), CurrentPW): Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:03:50 - [MESSAGE][PASSED] - Text 'minhhieu' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:03:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword"), NewPW): Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:03:51 - [MESSAGE][PASSED] - Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:03:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword"), RePW): Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:03:51 - [MESSAGE][PASSED] - Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:03:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 11:03:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Password With Correct Procedure" time="38.084" classname="Test Cases/Change Password With Correct Procedure" status="PASSED">
+         <system-out><![CDATA[2019-12-20 11:03:56 - [TEST_CASE][PASSED] - Test Cases/Change Password With Correct Procedure: Test Cases/Change Password With Correct Procedure
+
+2019-12-20 11:03:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 11:03:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 11:04:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 11:04:01 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:04:13 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:04:21 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), CurrentPW): Text 'hieu1999' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:04:21 - [MESSAGE][PASSED] - Text 'hieu1999' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:04:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword"), CurrentPW): Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:04:29 - [MESSAGE][PASSED] - Text 'hieu1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword"), NewPW): Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:04:29 - [MESSAGE][PASSED] - Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword"), RePW): Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:04:30 - [MESSAGE][PASSED] - Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:04:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 11:04:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Change Password With Correct Procedure" time="36.852" classname="Test Cases/Change Password With Correct Procedure" status="PASSED">
+         <system-out><![CDATA[2019-12-20 11:04:34 - [TEST_CASE][PASSED] - Test Cases/Change Password With Correct Procedure: Test Cases/Change Password With Correct Procedure
+
+2019-12-20 11:04:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-20 11:04:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-20 11:04:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-20 11:04:40 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-usecase.herokuapp.com/"): Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:04:50 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-usecase.herokuapp.com/' successfully
+
+2019-12-20 11:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5"), "hieuminhnguyen95@gmail.com"): Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:04:58 - [MESSAGE][PASSED] - Text 'hieuminhnguyen95@gmail.com' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2019-12-20 11:04:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733"), CurrentPW): Text 'hieukfc69' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:04:58 - [MESSAGE][PASSED] - Text 'hieukfc69' is set on object 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2019-12-20 11:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Account Full Name With All Fields Filled/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 11:04:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_hieudz123_style--none sidebar-header_f9a64e' is clicked on
+
+2019-12-20 11:05:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Account Settings' is clicked on
+
+2019-12-20 11:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Security' is clicked on
+
+2019-12-20 11:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - Squad Mattermost/button_Edit' is clicked on
+
+2019-12-20 11:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword"), CurrentPW): Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:05:06 - [MESSAGE][PASSED] - Text 'hieukfc69' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Current Password_currentPassword'
+
+2019-12-20 11:05:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword"), NewPW): Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:05:06 - [MESSAGE][PASSED] - Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_New Password_newPassword'
+
+2019-12-20 11:05:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword"), RePW): Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:05:07 - [MESSAGE][PASSED] - Text 'hieunhoc1999' is set on object 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/input_Retype New Password_confirmPassword'
+
+2019-12-20 11:05:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_Save' is clicked on
+
+2019-12-20 11:05:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_")): Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Change Password With Correct Procedure/Page_Town Square - ss Mattermost/span_' is clicked on
+
+2019-12-20 11:05:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-20 11:05:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 11:01:56 - [TEST_SUITE][PASSED] - Change Password: Test Cases/Change Password With Correct Procedure]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
